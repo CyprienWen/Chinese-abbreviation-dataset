@@ -7,4 +7,22 @@ Abbreviation is a common phenomenon across languages, especially in Chinese. In 
 # Annotation Format
 On the right of the colon is the full form expression of a word. The full form expression is segmented and labeled with Part-of-speech tags. On the left of the colon is the abbreviation of the full form expression. If the full form expression does not have valid abbreviations, a special notation "n" is marked on the left of the colon.
 
-
+# Citation
+If you use this code for your research, please cite the paper this code is based on: <a href="https://arxiv.org/pdf/1712.06289.pdf">A Chinese Dataset with Negative Full Forms for General Abbreviation Prediction</a>:
+```
+@article{DBLP:journals/corr/abs-1712-06289,
+  author    = {Yi Zhang and
+               Xu Sun},
+  title     = {A Chinese Dataset with Negative Full Forms for General Abbreviation
+               Prediction},
+  journal   = {CoRR},
+  volume    = {abs/1712.06289},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1712.06289},
+  archivePrefix = {arXiv},
+  eprint    = {1712.06289},
+  timestamp = {Thu, 04 Jan 2018 12:38:35 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1712-06289},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
